@@ -1,0 +1,32 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Blog on Hugo Zen theme",
+    "description": "Recent content in Blog on Hugo Zen theme",
+    "home_page_url": "https://example.org/",
+    "feed_url": "https://example.org/blog/index.json",
+    "language": "en-GB",
+    "icon": "https://example.org/apple-touch-icon.png",
+    "favicon": "https://example.org/apple-touch-icon.png",
+    "authors": [
+        {
+            "name": "Your Name",
+            "url": "https://example.org/somepage",
+            "avatar": "https://example.org/path/to/some-image.jpg"
+        }
+    ],
+    "items": [
+        {
+            "title": "First Post",
+            "date_published": "2021-03-20T18:19:11Z",
+            "date_modified": "2021-03-20T18:19:11Z",
+            "id": "https://example.org/blog//first-post/",
+            "url": "https://example.org/blog//first-post/",
+            "authors": [
+                {
+                  "name": "John Doe"
+                }
+            ],
+            "content_html": "\u003cp\u003eThis is a post\u003c/p\u003e\n"
+        }
+        ]
+}
