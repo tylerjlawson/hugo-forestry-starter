@@ -1,4 +1,24 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+fields:
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
