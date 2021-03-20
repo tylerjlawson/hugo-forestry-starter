@@ -11,9 +11,9 @@
     
     <item>
       <title>First Post</title>
-      <link>https://example.org/blog//first-post/</link>
+      <link>https://example.org/blog/first-post/</link>
       <pubDate>Sat, 20 Mar 2021 18:19:11 +0000</pubDate>
-      <guid>https://example.org/blog//first-post/</guid>
+      <guid>https://example.org/blog/first-post/</guid>
       <description>&lt;p&gt;This is a post&lt;/p&gt;
 </description>
     </item>

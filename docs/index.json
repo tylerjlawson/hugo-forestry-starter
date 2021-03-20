@@ -19,8 +19,8 @@
             "title": "First Post",
             "date_published": "2021-03-20T18:19:11Z",
             "date_modified": "2021-03-20T18:19:11Z",
-            "id": "https://example.org/blog//first-post/",
-            "url": "https://example.org/blog//first-post/",
+            "id": "https://example.org/blog/first-post/",
+            "url": "https://example.org/blog/first-post/",
             "authors": [
                 {
                   "name": "John Doe"
