@@ -22,3 +22,12 @@ fields:
     time_format: 
     display_utc: false
   default: now
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
