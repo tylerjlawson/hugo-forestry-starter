@@ -17,6 +17,6 @@ fields:
     config:
       required: false
   - name: headless
-    type: toggle
+    type: boolean
     config:
       required: false
