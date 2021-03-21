@@ -2,23 +2,23 @@
 label: Homepage Section
 hide_body: false
 fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: title
-  - name: button
-    type: text
-    config:
-      required: false
-    label: button
-  - name: weight
-    type: number
-    config:
-      required: false
-    label: weight
-  - name: headless
-    type: boolean
-    config:
-      required: false
-    label: headless
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: button
+  type: text
+  config:
+    required: false
+  label: button
+- name: weight
+  type: number
+  config:
+    required: false
+  label: weight
+- name: headless
+  type: boolean
+  config:
+    required: false
+  label: headless

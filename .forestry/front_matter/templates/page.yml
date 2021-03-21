@@ -7,5 +7,72 @@ fields:
   config:
     required: false
   label: title
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: aliases
+  type: tag_list
+  default: []
+  label: Aliases
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+- name: menu
+  type: field_group
+  config: {}
+  fields:
+  - name: menu_item
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Name
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: url
+      type: text
+      config:
+        required: false
+      label: url
+    - name: weight
+      type: number
+      label: Weight
+      description: ''
+      default: 0
+      required: true
+      config:
+        min: 
+        max: 
+        step: 
+    - name: parent
+      type: text
+      config:
+        required: false
+      label: Parent
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Menu Item
+  label: Menu
 pages:
 - content/about.md
