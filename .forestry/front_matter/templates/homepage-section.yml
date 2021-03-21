@@ -16,7 +16,9 @@ fields:
     type: number
     config:
       required: false
+    label: weight
   - name: headless
     type: boolean
     config:
       required: false
+    label: headless
