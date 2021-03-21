@@ -68,6 +68,11 @@ fields:
       config:
         required: false
       label: Parent
+    - name: identifier
+      type: text
+      config:
+        required: false
+      label: Identifier
     config:
       min: 
       max: 
