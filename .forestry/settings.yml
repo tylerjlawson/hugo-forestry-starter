@@ -11,7 +11,7 @@ sections:
     path: content/blog
     label: Blog
     create: documents
-    match: "**/*"
+    match: "*"
     templates:
       - blog-post
   - type: directory
@@ -21,6 +21,13 @@ sections:
     match: "*"
     templates:
       - page
+  - type: directory
+    path: content/homepage
+    label: Homepage
+    create: documents
+    match: "*"
+    templates:
+      - homepage-section
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ""
