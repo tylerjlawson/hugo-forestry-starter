@@ -79,5 +79,10 @@ fields:
       labelField: 
     label: Menu Item
   label: Menu
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
 pages:
 - content/about.md
