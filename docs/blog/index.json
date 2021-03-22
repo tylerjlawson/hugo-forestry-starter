@@ -26,7 +26,7 @@
                   "name": "John Doe"
                 }
             ],
-            "content_html": "\u003cp\u003eThis is a post\u003c/p\u003e\n"
+            "content_html": "\u003cp\u003eThis is a post\u003c/p\u003e\n\u003c!-- raw HTML omitted --\u003e\n"
         }
         ]
 }
